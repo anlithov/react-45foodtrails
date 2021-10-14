@@ -1,0 +1,229 @@
+.site-footer {
+  position: relative;
+  width: 100%;
+  background: var(--btn-back);
+  color: var(--body-color);
+  height: 14em;
+  margin-top: -0.5em;
+  z-index: 1;
+  border-radius: 50%/3px 3px 0 0;
+}
+.sf_top {
+  width: 100%;
+  background: linear-gradient(to bottom, #cccccc00 0%, #efefef 100%);
+}
+.sf_main {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+  width: 100%;
+  z-index: 1;
+  height: calc(100% - 3em);
+}
+.sfm_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .sfml_img {
+    background-size: cover;
+  }
+}
+.sfm_about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+  .sfma_text {
+    display: flex;
+    text-align: center;
+    font-size: 11px;
+    line-height: 1.9;
+    color: var(--body-color);
+  }
+}
+.sfm_follow {
+  width: 100%;
+  margin-bottom: 15px;
+  span {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: var(--body-color);
+  }
+}
+.sfmf_box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.sf_single {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 20px;
+}
+.sf_instagram {
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  opacity: 0.7;
+}
+.sf_copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3em;
+  width: 100%;
+  color: #e8eaed;
+  background: var(--body-back);
+
+  border-radius: 50%/6px 6px 0 0;
+  > * {
+    font-size: 13px;
+  }
+  .footer-signature > * {
+    margin: 0 2px;
+  }
+}
+.footer-signature {
+  display: inline-flex;
+}
+@media only screen and (max-width: 899px) {
+  .sfm_logo {
+    margin: calc(var(--vw, 1vw) * 10) 0 calc(var(--vw, 1vw) * 5);
+  }
+  .sfml_img {
+    height: calc(var(--vw, 1vw) * 8.5);
+    width: calc(var(--vw, 1vw) * 85);
+  }
+}
+@media only screen and (min-width: 900px) {
+}
+
+@media only screen and (max-width: 1199px) {
+  .footer-menu,
+  .sf_main > * {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .site-footer {
+    height: 14em;
+    border-radius: 50%/9px 9px 0 0;
+  }
+
+  .sf_main {
+    height: calc(100% - 2.4em);
+    align-items: center;
+    align-content: center;
+  }
+  .sfm_logo {
+    width: 25%;
+    margin: 0;
+  }
+  .sfml_img {
+    height: calc(var(--vw, 1vw) * 2.1);
+    width: calc(var(--vw, 1vw) * 21);
+  }
+  .sfm_follow {
+    width: 25%;
+    margin: 0;
+  }
+  .sfm_about {
+    padding: 20px;
+    margin: 0;
+    width: 50%;
+    .sfma_text {
+      font-size: 12px;
+    }
+  }
+  .sf_copyright {
+    height: 2.4em;
+    padding: 0.3em 3em 0;
+    justify-content: space-between;
+    border-radius: 50%/10px 10px 0 0;
+    > * {
+      font-size: 11px;
+    }
+  }
+  .footer-menu {
+    display: flex;
+    height: 100%;
+    flex-grow: 1;
+    a {
+      font-weight: 500;
+      display: inline-flex;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+      height: 100%;
+      padding: 0 1em;
+      border-radius: 1.5em;
+      span {
+        text-transform: capitalize;
+      }
+      &:hover {
+        .item svg {
+          animation: bupdowmgggg 0.6s linear;
+        }
+      }
+    }
+    span {
+      color: var(--body-color);
+      line-height: 3;
+      margin-left: 1em;
+      font-family: 'Oswald';
+    }
+  }
+  .slogan {
+    font-family: Oswald;
+  }
+  .footer-signature {
+    font-family: Oswald;
+    color: var(--body-color);
+  }
+  .up span {
+    margin: 0 0.6rem 0 0;
+    line-height: 5.5rem;
+  }
+  .down span {
+    /* font-family: "Arimo"; */
+    font-size: 1em;
+    font-weight: 100;
+  }
+  span.n1 {
+    font-size: 3em;
+    font-weight: 300;
+  }
+  span.n2 {
+    font-size: 4em;
+    font-weight: 400;
+    text-transform: lowercase;
+  }
+  span.n3 {
+    font-size: 2em;
+    text-transform: uppercase;
+  }
+  .logo-footer {
+    margin-right: 4em;
+    svg {
+      width: 25em;
+      height: 12em;
+    }
+  }
+}

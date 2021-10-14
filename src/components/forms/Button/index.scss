@@ -1,0 +1,110 @@
+button,
+input.submit,
+.btn,
+.btn2,
+.btn3,
+.btn4,
+.btn-outlined,
+.btn-flat {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+
+  font-family: "Oswald", sans-serif;
+  font-size: 0.875em;
+  padding: 0.5em 1.5em 0.6em;
+  border-radius: 2em;
+
+  font-weight: 500;
+  transition: 0.3s all;
+  cursor: pointer;
+  .icon {
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 3.5em;
+    transition: 0.3s all;
+    i {
+      font-size: 17px;
+    }
+    svg {
+      width: 60%;
+      height: 60%;
+    }
+
+  }
+  span {
+    font-weight: 600;
+    color: var(--body-color);
+    transition: 0.3s all;
+  }
+  &.icon-left {
+    padding: 0.5em 1.5em 0.6em 3.5em;
+    .icon {
+      left: 0;
+    }
+  }
+  &.icon-right {
+    padding: 0.5em 3.5em 0.6em 1.5em;
+    .icon {
+      right: 0;
+    }
+  }
+}
+input.submit,
+.btn {
+  background: var(--btn-dark);
+  color: var(--body-back);
+  span,
+  i {
+    color: var(--body-back);
+  }
+}
+.btn2 {
+  background: var(--btn2-dark);
+  color: var(--body-back);
+  span,
+  i {
+    color: var(--body-back);
+  }
+}
+.btn3 {
+  background: var(--btn-light);
+}
+.btn4 {
+  background: var(--btn2-light);
+}
+
+.btn-outlined {
+  background: none;
+  border: 1px solid var(--btn-border);
+}
+.btn-flat {
+  background: rgba(204, 204, 204, 0);
+}
+
+@media only screen and (min-width: 1200px) {
+  button,
+  input.submit,
+  .btn,
+  .btn2,
+  .btn3,
+  .btn4,
+  .btn-flat,
+  .btn-outlined {
+    &:hover {
+      color: var(--btn-color-hover);
+      background: var(--btn-back-hover);
+      border-color: var(--btn-back-hover);
+      span {
+        color: var(--btn-color-hover);
+      }
+      i {
+        color: var(--btn-color-hover);
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+export {ReactComponent as AboutSvg} from "./about.svg";
+export {ReactComponent as ComponentsSvg} from "./components.svg";
+export {ReactComponent as TypographySvg} from "./typography.svg";
+export {ReactComponent as DesignSvg} from "./design.svg";
+export {ReactComponent as Logo} from "./logo.svg";
+export {ReactComponent as Soups} from "./soups.svg";
+export {ReactComponent as ThemeToggler} from "./theme-toggler.svg";
+export {ReactComponent as ContactSvg} from "./contact.svg";
+export {ReactComponent as Hamburger} from "./hamburger.svg"

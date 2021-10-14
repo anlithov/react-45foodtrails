@@ -1,0 +1,240 @@
+html:root {
+    --white: #e8eaed;
+    --red: #e4563b;
+    --orange: #ef7f1a;
+    --green: #81b700;
+    --blue: #2aa4c3;
+    --purple: #9758cc;
+    --gray: #6e9ad0;
+
+    --soups: #f7c347;
+    --appetizers: #88d7cf;
+    --salads: #addd72;
+    --maincourses: #f28a61;
+    --desserts: #ffa1aa;
+    --drinks: #db95e6;
+
+    --basis: #bd70e4;
+    --ingredients: #9bda68;
+    --equipment: #9fcedc;
+    --catchterests: #f7d447;
+
+    --comment-acsent: #9a9a9aba;
+    --comment-blue-color: #009eff29;
+    --comment-name-color: #009eff;
+}
+
+.theme-latico {
+    --logo-o: #fff;
+    --body-back: #f3f3f3;
+    --body-color: #5b5b5b;
+    --body-color-hover: #6b6868;
+    --btn-dark: #777777;
+    --btn2-dark: #676767;
+    --btn-light: #fff;
+    --btn2-light: #e8e8e8;
+    --btn-s-light: #e8e8e8;
+    --btn-s-color: #8c8c8c;
+    --btn-border: #bdbdbd;
+    --btn-back-hover: #5b5b5b;
+    --btn-color-hover: #f3f3f3;
+
+    --body-back-05: #f7f7f779;
+    --body-color-05: #5b5b5b54;
+    --body-back-08: #f7f7f7eb;
+    --body-color-08: #5b5b5baf;
+    --btn2-light-08: #e8e8e89f;
+    --btn-color-08: #8c8c8ccc;
+
+    --bact-back: #9ca2a7f0;
+    --btn-orange-hover: #f37300c2;
+    --btn-green-hover: #91ff653d;
+}
+.theme-martin {
+    --logo-o: #28292d;
+    --body-back: #202124;
+    --body-color: #e8eaed;
+    --body-color-hover: #edeff3;
+    --btn-dark: #a7aab1;
+    --btn2-dark: #66686b;
+    --btn-light: #27282b;
+    --btn2-light: #323435;
+    --btn-s-light: #323435;
+    --btn-s-color: #c0c3c7;
+    --btn-border: #676767;
+    --btn-back-hover: #e8eaed;
+    --btn-color-hover: #202124;
+
+    --body-back-05: #20212479;
+    --body-color-05: #e8eaed54;
+    --body-back-08: #202124f2;
+    --body-color-08: #e8eaedaf;
+    --btn2-light-08: #3234359f;
+    --btn-color-08: #8c8c8ccc;
+
+    --bact-back: #a5b0b9f0;
+    --btn-orange-hover: #f37300c2;
+    --btn-green-hover: #91ff653d;
+}
+.theme-clary {
+    --logo-o: #fffbfa;
+    --body-back: #fff0e8;
+    --body-color: #553a3c;
+    --body-color-hover: #edeff3;
+    --btn-dark: #8c515c;
+    --btn2-dark: #704951;
+    --btn-light: #fff;
+    --btn2-light: #ffe2d3;
+    --btn-s-light: #ffe2d3;
+    --btn-s-color: #a4706c;
+    --btn-border: #fcb9ab;
+    --btn-back-hover: #553a3c;
+    --btn-color-hover: #fff0e8;
+
+    --body-back-05: #20212479;
+    --body-color-05: #e8eaed54;
+    --body-back-08: #202124f2;
+    --body-color-08: #e8eaedaf;
+    --btn2-light-08: #3234359f;
+    --btn-color-08: #8c8c8ccc;
+
+    --bact-back: #a5b0b9f0;
+    --btn-orange-hover: #f37300c2;
+    --btn-green-hover: #91ff653d;
+}
+.theme-ricco {
+    --logo-o: #fffbfa;
+    --body-back: #efffe8;
+    --body-color: #2d5d3e;
+    --body-color-hover: #edeff3;
+    --btn-dark: #38724d;
+    --btn2-dark: #ff6525;
+    --btn-light: #f9fff7;
+    --btn2-light: #d7f3d7;
+    --btn-s-light: #d7f3d7;
+    --btn-s-color: #356859;
+    --btn-border: #aadeb8;
+    --btn-back-hover: #2d5d3e;
+    --btn-color-hover: #efffe8;
+
+    --body-back-05: #20212479;
+    --body-color-05: #e8eaed54;
+    --body-back-08: #202124f2;
+    --body-color-08: #e8eaedaf;
+    --btn2-light-08: #3234359f;
+    --btn-color-08: #8c8c8ccc;
+
+    --bact-back: #a5b0b9f0;
+    --btn-orange-hover: #f37300c2;
+    --btn-green-hover: #91ff653d;
+}
+.theme-hyggo {
+    --logo-o: #28292d;
+    --body-back: #202124;
+    --body-color: #e8eaed;
+    --body-color-hover: #edeff3;
+    --btn-dark: #e8eaed;
+    --btn2-dark: #28292d;
+    --btn-light: #fff;
+    --btn2-light: #323435;
+    --btn-s-color: #c0c3c7;
+    --btn-border: #676767;
+    --btn-back-hover: #5b5b5b;
+    --btn-color-hover: #f3f3f3;
+
+    --body-back-05: #20212479;
+    --body-color-05: #e8eaed54;
+    --body-back-08: #202124f2;
+    --body-color-08: #e8eaedaf;
+    --btn2-light-08: #3234359f;
+    --btn-color-08: #8c8c8ccc;
+
+    --bact-back: #a5b0b9f0;
+    --btn-orange-hover: #f37300c2;
+    --btn-green-hover: #91ff653d;
+}
+.theme-patri {
+    --logo-o: #28292d;
+    --body-back: #202124;
+    --body-color: #e8eaed;
+    --body-color-hover: #edeff3;
+    --btn-dark: #e8eaed;
+    --btn2-dark: #28292d;
+    --btn-light: #fff;
+    --btn2-light: #323435;
+    --btn-s-light: #323435;
+    --btn-s-color: #c0c3c7;
+    --btn-border: #676767;
+    --btn-back-hover: #5b5b5b;
+    --btn-color-hover: #f3f3f3;
+
+    --body-back-05: #20212479;
+    --body-color-05: #e8eaed54;
+    --body-back-08: #202124f2;
+    --body-color-08: #e8eaedaf;
+    --btn2-light-08: #3234359f;
+    --btn-color-08: #8c8c8ccc;
+
+    --bact-back: #a5b0b9f0;
+    --btn-orange-hover: #f37300c2;
+    --btn-green-hover: #91ff653d;
+}
+.theme-vermir {
+    --logo-o: #28292d;
+    --body-back: #202124;
+    --body-color: #e8eaed;
+    --body-color-hover: #edeff3;
+    --btn-dark: #e8eaed;
+    --btn2-dark: #28292d;
+    --btn-light: #fff;
+    --btn2-light: #950740;
+    --btn-s-color: #e73461;
+    --btn-border: #950740;
+    --btn-back-hover: #5b5b5b;
+    --btn-color-hover: #f3f3f3;
+
+    --body-back-05: #20212479;
+    --body-color-05: #e8eaed54;
+    --body-back-08: #202124f2;
+    --body-color-08: #e8eaedaf;
+    --btn2-light-08: #3234359f;
+    --btn-color-08: #8c8c8ccc;
+
+    --bact-back: #a5b0b9f0;
+    --btn-orange-hover: #f37300c2;
+    --btn-green-hover: #91ff653d;
+}
+.theme-risana {
+    --logo-o: #28292d;
+    --body-back: #202124;
+    --body-color: #e8eaed;
+    --body-color-hover: #edeff3;
+    --btn-dark: #a7aab1;
+    --btn2-dark: #66686b;
+    --btn-light: #950740;
+    --btn2-light: #c3073f;
+    --btn-s-light: #613f4d;
+    --btn-s-color: #d6bac1;
+    --btn-border: #950740;
+    --btn-back-hover: #e8eaed;
+    --btn-color-hover: #202124;
+
+    --body-back-05: #20212479;
+    --body-color-05: #e8eaed54;
+    --body-back-08: #202124f2;
+    --body-color-08: #e8eaedaf;
+    --btn2-light-08: #3234359f;
+    --btn-color-08: #8c8c8ccc;
+
+    --bact-back: #a5b0b9f0;
+    --btn-orange-hover: #f37300c2;
+    --btn-green-hover: #91ff653d;
+}
+.theme-martin {
+    .item svg {
+    }
+    img.wp-post-image,
+    .p_tag-area {
+        filter: brightness(0.9);
+    }
+}

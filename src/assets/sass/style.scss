@@ -1,0 +1,146 @@
+
+div {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Oswald", sans-serif;
+  transition: 0.2s;
+  &:after,
+  &:before {
+    transition: 0.2s;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  clear: both;
+  color: var(--body-color);
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 4em;
+  text-transform: capitalize;
+}
+h2 {
+  font-size: 3.5em;
+  text-transform: capitalize;
+}
+h3 {
+  font-size: 2.7em;
+}
+h4 {
+  font-size: 2.2em;
+}
+h5 {
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+
+html {
+  font-size: 62.5%;
+  font-family: "Oswald", sans-serif;
+  color: var(--body-color);
+}
+p {
+  font-family: "Arimo";
+  line-height: 1.75;
+  margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 550px) {
+  body {
+    font-size: 14px;
+  }
+  p {
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width: 550px) and (max-width: 1199px) {
+  body,
+  p {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1479px) {
+  body,
+  p {
+    font-size: 13px;
+  }
+}
+@media only screen and (min-width: 1479px) {
+  body,
+  p {
+    font-size: calc(15px + 3 * (calc(var(--vw, 1vw) * 100) - 1480px) / 1824);
+  }
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  /* Inherit box-sizing to make it easier to change the property for ComponentsScreen that leverage other behavior; see https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--body-back);
+  margin: 0;
+  transition: 0.2s ease background;
+  /* Fallback for when there is no custom background color defined. */
+}
+
+hr {
+  background: #ffffff00;
+  border: 0;
+  height: 1px;
+  margin: 15px 0;
+}
+
+img {
+  height: auto;
+  /* Make sure images are scaled correctly. */
+  max-width: 100%;
+  /* Adhere to container width. */
+}
+
+a {
+  color: #f8a149;
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+a:hover,
+a:active {
+  color: #f8a149;
+}
+
+a:focus {
+  color: inherit;
+}
+
+a:hover,
+a:active {
+  outline: 0;
+}
+a > * {
+  color: initial;
+}
+

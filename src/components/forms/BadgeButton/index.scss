@@ -1,0 +1,123 @@
+
+
+.btn-badge {
+  position: relative;
+  min-width: 3em;
+  min-height: 3em;
+  overflow: hidden;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin: 0.2em;
+  background: var(--btn-s-light);
+  border-radius: 2em;
+  cursor: pointer;
+  span {
+    width: 100%;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 0.7em;
+    font-weight: 400;
+    line-height: 2em;
+    min-width: 8em;
+    color: var(--btn-s-color);
+    text-transform: uppercase;
+    transition: 0.1s;
+  }
+  .badge {
+    position: absolute;
+    top: 0;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    background: #f0f0f0b0;
+    opacity: 0.6;
+    transition: 0.1s;
+    i {
+      color: #202124;
+    }
+    svg {
+      width: 50%;
+      height: 50%;
+    }
+  }
+  &.badge-right {
+    padding-right: 2em;
+    .badge {
+      right: 0;
+    }
+  }
+  &.badge-left {
+    padding-left: 2em;
+    .badge {
+      left: 0;
+    }
+  }
+  &.yellow {
+    .badge {
+      background: #f7c347b0;
+    }
+  }
+  &.green {
+    .badge {
+      background: #addd72b0;
+    }
+  }
+  &.pink {
+    .badge {
+      background: #ffa1aab0;
+    }
+  }
+  &.violet {
+    .badge {
+      background: #db95e6b0;
+    }
+  }
+  &.red {
+    .badge {
+      background: #f28a61b0;
+    }
+  }
+  &.blue {
+    .badge {
+      background: #88d7cfb0;
+    }
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .btn-badge {
+    span {
+      font-size: 0.7em;
+    }
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .btn-badge {
+    position: relative;
+    width: auto;
+    justify-content: flex-start;
+    font-size: 1.1em;
+    transition: 0.1s;
+    span {
+      font-size: 0.8em;
+    }
+    &:hover {
+      background: var(--btn-back-hover);
+      .badge {
+        opacity: 1;
+        i, svg {
+          animation: bupdowmgggg 0.6s linear;
+        }
+      }
+      span {
+        color: var(--btn-color-hover);
+      }
+    }
+  }
+}
