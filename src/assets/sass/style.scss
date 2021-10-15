@@ -59,6 +59,38 @@ p {
   margin-bottom: 1em;
 }
 
+div#content {
+  position: relative;
+  padding-top: 0;
+  width: 100%;
+  min-height: calc(var(--vh, 1vh) * 100 - 20em);
+}
+img {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  max-height: none;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  font-family: "object-fit: cover;";
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transition: 0.3s;
+}
+@media only screen and (min-width: 900px) {
+  div#content {
+    min-height: calc(var(--vh, 1vh) * 100 - 14em);
+  }
+}
+
 @media only screen and (max-width: 550px) {
   body {
     font-size: 14px;
@@ -72,6 +104,7 @@ p {
   p {
     font-size: 14px;
   }
+
 }
 @media only screen and (min-width: 1200px) and (max-width: 1479px) {
   body,

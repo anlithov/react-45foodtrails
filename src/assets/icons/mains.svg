@@ -1,4 +1,4 @@
-<div class="item mains">
+
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 153500 153500" shape-rendering="geometricPrecision"
         text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd">
         <defs>
@@ -53,4 +53,3 @@
                 d="M56530 76413c-1321-701-2588-2465-2830-3941-116-709 25-1255 392-1518l18179-11648 2668 3716-16845 13505c-367 264-929 222-1564-114zM86072 61940c-643-895-732-1930-199-2313l9652-6932c534-383 1487 32 2129 927 643 895 732 1931 199 2314l-9652 6931c-534 383-1487-32-2129-927zM77192 50127c-643-895-732-1930-199-2313l9653-6932c533-383 1486 32 2128 927 643 895 732 1931 199 2314l-9652 6931c-533 383-1487-32-2129-927z" />
         </g>
     </svg>
-</div>

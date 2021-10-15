@@ -616,22 +616,15 @@ a.menu-buttom.sub-buttom {
         }
       }
 
-      &.to-design a:hover {
+      &.to-home a:hover {
+        background: var(--red);
+      }
+      &.to-recipes a:hover {
         background: var(--orange);
       }
-
-      &.to-typography a:hover {
-        background: var(--gray);
-      }
-
-      &.to-components a:hover {
-        background: var(--purple);
-      }
-
-      &.to-about a:hover {
+      &.to-know-hows a:hover {
         background: var(--green);
       }
-
       &.to-contact a:hover {
         background: var(--blue);
       }

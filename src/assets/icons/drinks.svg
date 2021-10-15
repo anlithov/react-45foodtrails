@@ -1,4 +1,4 @@
-<div class="item drinks">
+
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 153500 153500" shape-rendering="geometricPrecision"
         text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd">
         <defs>
@@ -74,4 +74,3 @@
             <path fill="none" stroke="#6e6e6e" stroke-width="4723" d="M102248 86577l3555-28436 17479-9994" />
         </g>
     </svg>
-</div>

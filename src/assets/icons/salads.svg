@@ -1,4 +1,4 @@
-<div class="item salads">
+
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 153500 153500" shape-rendering="geometricPrecision"
         text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd">
         <defs>
@@ -43,5 +43,3 @@
             <path fill="#b6e0e0" d="M143762 84946l-134311 3 9642 15711h114819z" />
         </g>
     </svg>
-
-</div>
