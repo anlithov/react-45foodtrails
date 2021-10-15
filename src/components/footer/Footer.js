@@ -2,16 +2,19 @@ import React from 'react'
 import "./index.scss"
 import '../../constants/menu'
 import PcButtList from "./PcButtList";
+import * as myConstClass from '../../constants/menu';
 
-export default function Footer({menuLogo, menuButtons}) {
+export default function Footer() {
 
+    const Logo = myConstClass.menuLogo;
+    const Buttons = myConstClass.menuButtons;
 
     return (
 
         <footer id="colophon" className="site-footer">
             <div className="sf_main">
                 <div className="logo-footer">
-                    {menuLogo.svg}
+                    {Logo.svg}
                 </div>
                 <div className="slogan">
                     <div className="up">
@@ -26,7 +29,7 @@ export default function Footer({menuLogo, menuButtons}) {
             </div>
             <div className="sf_copyright">
                 <div className="flexcenter uniwrap">
-                    <PcButtList pcbutts={menuButtons} />
+                    <PcButtList pcbutts={Buttons} />
                     <div className="footer-signature">
                         <div className="sfс_text">
                             © Mosimac Design 2020-{new Date().getFullYear()}

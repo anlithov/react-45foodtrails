@@ -2,10 +2,13 @@ import React from 'react'
 import "./index.scss"
 import {Hamburger} from "../../assets/icons";
 import PcButtList from "./PcButtList";
+import * as myConstClass from "../../constants/menu";
 
 
-export default function NavBar({menuLogo, menuButtons, themeList}) {
-
+export default function NavBar() {
+    const Logo = myConstClass.menuLogo;
+    const Buttons = myConstClass.menuButtons;
+    const Themes = myConstClass.themeList;
     return (
         <div id="menu" className="menu_base">
             <div className="menu_in uniwrap">
@@ -13,7 +16,7 @@ export default function NavBar({menuLogo, menuButtons, themeList}) {
                     <div className="menu-pres">
                         <div className="logo">
                             <a className="logo-url" href="/">
-                                {menuLogo.svg}
+                                {Logo.svg}
                             </a>
                         </div>
                     </div>
@@ -22,7 +25,7 @@ export default function NavBar({menuLogo, menuButtons, themeList}) {
                             <Hamburger />
                         </div>
                     </div>
-                    <PcButtList pcbutts={menuButtons} togglers={themeList}/>
+                    <PcButtList pcbutts={Buttons} togglers={Themes}/>
                 </div>
             </div>
         </div>
