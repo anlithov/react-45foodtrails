@@ -2,9 +2,10 @@ import React from 'react';
 
 const ResipesScreen = () => {
     return (
-        <div>
-            
+        <div className="page-components">
+
         </div>
+
     );
 };
 

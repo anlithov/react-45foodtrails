@@ -12,7 +12,7 @@ export default function NavBar({menuLogo, menuButtons, themeList}) {
                 <div className="menu_content">
                     <div className="menu-pres">
                         <div className="logo">
-                            <a className="logo-url">
+                            <a className="logo-url" href="/">
                                 {menuLogo.svg}
                             </a>
                         </div>

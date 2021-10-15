@@ -1,4 +1,4 @@
-export {defaulf as HomeScreen} from './HomeScreen'
-export {defaulf as RecipesScreen} from './ResipesScreen'
-export {defaulf as KnowHowsScreen} from './KnowHowsScreen'
-export {defaulf as ContactScreen} from './ContactScreen'
+export {default as HomeScreen} from './HomeScreen'
+export {default as RecipesScreen} from './ResipesScreen'
+export {default as KnowHowsScreen} from './KnowHowsScreen'
+export {default as ContactScreen} from "./ContactScreen"
